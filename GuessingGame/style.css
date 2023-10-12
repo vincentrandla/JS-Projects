@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, helvetica, Arial;
+  font-weight: 400;
+  height: 100vh;
+  color: rgb(57, 21, 21);
+  background-image: linear-gradient(to top left, #4bd8b7 0%, #1f9731 100%);
+}
+
+h1 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+h3 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 3.2rem;
+}
