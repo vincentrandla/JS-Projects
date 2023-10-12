@@ -10,12 +10,20 @@
   <body>
     <h1>Guess The Number!</h1>
 
-    <h3>You have to guess numbers between 1 and 25!</h3>
+    <h2>You have to guess numbers between 1 and 25!</h2>
+
+    <div class="container1">
+      <p class count>1</p>
+      <button class="btn-start">Start Game</button>
+      <button class="btn-again">Try Again</button>
+    </div>
 
     <div class="modal">
-      <form>
-        <label for="number">Your Guess</label> <br />
-        <input type="text" name="number" id="number" />
+      <form class="input-form">
+        <label class="label" for="number">Your Guess</label> <br />
+        <div class="typer">
+          <input type="text" name="number" id="number" size="15" />
+        </div>
       </form>
     </div>
   </body>
